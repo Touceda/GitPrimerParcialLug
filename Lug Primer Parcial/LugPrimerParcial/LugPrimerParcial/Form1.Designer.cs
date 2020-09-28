@@ -55,6 +55,7 @@
             this.btbAltaRecibo = new System.Windows.Forms.Button();
             this.btbMostrarRecibos = new System.Windows.Forms.Button();
             this.btbRecibosHistorialCompletos = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaDeEmpleados)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRecibos)).BeginInit();
             this.SuspendLayout();
@@ -297,11 +298,21 @@
             this.btbRecibosHistorialCompletos.UseVisualStyleBackColor = true;
             this.btbRecibosHistorialCompletos.Click += new System.EventHandler(this.btbRecibosHistorialCompletos_Click);
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(12, 637);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(210, 13);
+            this.label10.TabIndex = 23;
+            this.label10.Text = "Nicolas Emilio Touceda Primer Parcial LUG";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1256, 646);
+            this.ClientSize = new System.Drawing.Size(1256, 659);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.btbRecibosHistorialCompletos);
             this.Controls.Add(this.btbMostrarRecibos);
             this.Controls.Add(this.btbAltaRecibo);
@@ -362,6 +373,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn DescuentoTotal;
         private System.Windows.Forms.DataGridViewTextBoxColumn ConceptosAplicados;
         private System.Windows.Forms.Button btbRecibosHistorialCompletos;
+        private System.Windows.Forms.Label label10;
     }
 }
 
